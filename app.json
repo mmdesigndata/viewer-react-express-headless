@@ -8,11 +8,11 @@
   "env": {
 	"FORGE_CLIENT_ID": {
 	  	"description": "Replace with your FORGE CLIENT ID KEY",
-		"value": "public"
+		"value": "69xiag9FWsVOY3hOkm1OpUlwsgALM8n1"
 	},
 	"FORGE_CLIENT_SECRET": {
 	  	"description": "Replace with your FORGE CLIENT SECRET KEY",
-	  	"value": "secret"
+	  	"value": "f24sAEd59ZRwyydb"
 	}
   }
 }
