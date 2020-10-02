@@ -19,17 +19,15 @@
 var credentials ={
 
 	credentials: {
-		// Replace placeholder below by the Consumer Key and Consumer Secret you got from
-		// http://developer.autodesk.com/ for the production server
-		client_id: process.env.FORGE_CLIENT_ID || '<replace with your consumer key>',
-		client_secret: process.env.FORGE_CLIENT_SECRET || '<replace with your consumer secret>',
+		client_id: process.env.FORGE_CLIENT_ID || '69xiag9FWsVOY3hOkm1OpUlwsgALM8n1',
+		client_secret: process.env.FORGE_CLIENT_SECRET || 'f24sAEd59ZRwyydb',
 		grant_type: 'client_credentials',
 		scope: 'viewables:read', // Setup the needed scopes for authorizing your Token
-		callbackUrl: process.env.CALLBACK_URL || '<replace with your callbackUrl>'
+		callbackUrl: process.env.CALLBACK_URL || 'http://localhost:3000/callback'
 	},
 	
 	// If you which to use the Autodesk View & Data API on the staging server, change this url
-	BaseUrl: 'https://developer.api.autodesk.com',
+	BaseUrl: 'http://localhost:3000',
 	Version: 'v1'
 } ;
 
